@@ -81,7 +81,12 @@ public class StartMenuState extends GameState{
 	public void keyPressed(int k) {
 		if(k == KeyEvent.VK_SPACE) 
 			gsm.setState(GameStateManager.MENUSTATE);
+		
+		else if(k == KeyEvent.VK_R) 
+			gsm.setState(GameStateManager.RANKINGSTATE);
 	}
+	
+	
 	
 	@Override
 	public void keyReleased(int k) {}

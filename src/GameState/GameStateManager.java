@@ -10,10 +10,10 @@ public class GameStateManager {
 	
 	public static final int STARTMENUSTATE = 0;
 	public static final int MENUSTATE = 1;
-//	public static final int SIMPLEPLAN_STATE = 2;
+	public static final int RANKINGSTATE = 2;
 	public static final int MOMOLAND_STATE = 3;
 	public static final int CHAMCHI_STATE = 4;
-	public static final int AILEE_STATE = 5;
+	
 	
 	public GameStateManager() {
 		
@@ -30,6 +30,10 @@ public class GameStateManager {
 		if(state == MENUSTATE) {
 			if (gameStates[state] == null)
 				gameStates[state] = new MenuState(this);
+		}
+		if(state == RANKINGSTATE) {
+			if (gameStates[state] == null)
+				gameStates[state] = new RankingState(this);
 		}
 		
 		if (state == MOMOLAND_STATE)
@@ -48,6 +52,10 @@ public class GameStateManager {
 		if (currentState != MENUSTATE) {
 			unloadState(currentState);
 		}
+		/*if (currentState != RANKINGSTATE) {
+			unloadState(currentState);
+		}*/
+		
 		
 		currentState = state;
 		loadState(state);

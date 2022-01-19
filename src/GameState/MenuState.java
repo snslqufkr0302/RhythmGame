@@ -104,19 +104,7 @@ public class MenuState extends GameState{
 	
 	@Override
 	public void update() {
-		if (developing) {
-			if (alpha >= 145) {
-				developing = false;
-				alpha = 0;
-				delayAlpha = 0;
-			}
-		}
-
-		if(developing) {
-			delayAlpha += 5;
-			if (delayAlpha >= 150)
-				alpha += 5;
-		}
+		
 			
 	}
 
