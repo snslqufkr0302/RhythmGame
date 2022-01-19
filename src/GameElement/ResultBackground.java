@@ -130,7 +130,7 @@ public class ResultBackground {
 			step1On = true;
 			g.setColor(new Color(200, 255, 200));
 			g.setFont(new Font(
-					"Elephant", 
+					"경기천년제목 Light", 
 					Font.BOLD, 
 					25
 					));
@@ -142,7 +142,7 @@ public class ResultBackground {
 			step2On = true;
 			g.setColor(new Color(200, 255, 200));
 			g.setFont(new Font(
-					"Elephant", 
+					"경기천년제목 Light", 
 					Font.BOLD,
 					25
 					));
@@ -158,7 +158,7 @@ public class ResultBackground {
 			step3On = true;
 			g.setColor(Color.green);
 			g.setFont(new Font(
-					"Elephant",
+					"경기천년제목 Light",
 					Font.BOLD, 
 					100
 					));
@@ -172,7 +172,7 @@ public class ResultBackground {
 			if (angle >= 175) angle = 0;
 			g.setColor(new Color(255, 255, 100, (int)alpha));
 			g.setFont(new Font(
-					"Elephant", 
+					"경기천년제목 Light", 
 					Font.BOLD,
 					27
 					));
