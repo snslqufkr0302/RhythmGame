@@ -230,9 +230,9 @@ public class Chamchi extends GameState
 		
 		// 점수판, 난이도 그래픽
 		g.setColor(Color.LIGHT_GRAY);
-		g.setFont(new Font("Elephant", Font.BOLD, 30));
+		g.setFont(new Font("경기천년제목 Light", Font.BOLD, 30));
 		g.drawString(String.valueOf(score), 600, 700);
-		g.drawString("Easy", 1180, 700);
+		g.drawString("Normal", 1100, 700);
 		
 		// 각 노트 그래픽
 		for (int i = 0; i < notes.size(); i++) {

@@ -54,8 +54,8 @@ public class MenuState extends GameState{
 				Font.PLAIN, 
 				50));
 		
-		tracks.add(new Track("모모랜드 주이", "트로피카나", 1));
-		tracks.add(new Track("조정석, 손나은", "동원참치", 2));
+		tracks.add(new Track("모모랜드 주이", "트로피카나", 5));
+		tracks.add(new Track("조정석, 손나은", "동원참치", 3));
 		
 		
 		

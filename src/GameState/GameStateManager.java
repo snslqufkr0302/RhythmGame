@@ -51,10 +51,9 @@ public class GameStateManager {
 		
 		if (currentState != MENUSTATE) {
 			unloadState(currentState);
-		}
-		/*if (currentState != RANKINGSTATE) {
+		}if (currentState != RANKINGSTATE) {
 			unloadState(currentState);
-		}*/
+		}
 		
 		
 		currentState = state;
