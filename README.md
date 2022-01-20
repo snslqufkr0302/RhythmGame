@@ -3,31 +3,7 @@
 <br>
 <br>
 
-<p align="center">  
-   <img src="![image](https://user-images.githubusercontent.com/97214837/150288502-bee11a05-8897-4ed7-b489-55e994998608.png)" width="600"> 
-   <br>  
-   <로딩 화면>
- </p> 
- <br>
- 
- <p align="center">  
-   <img src="/picture02.png" width="600"> 
-   <br>  
-   <메인 화면>
- </p> 
- <br>
- 
-<p align="center">  
-   <img src="/picture03.png" width="600"> 
-   <br>  
-   <게임 화면>
- </p> 
- <br>
- 
- 
----
-<br>
-<br>
+
 
 ## 작품 주제
 Java를 가지고 cm송을 주제로 하여 리듬게임을 만들어보았습니다.<br>
