@@ -4,7 +4,7 @@
 <br>
 
 <p align="center">  
-   <img src="/picture01.png" width="600"> 
+   <img src="![image](https://user-images.githubusercontent.com/97214837/150288502-bee11a05-8897-4ed7-b489-55e994998608.png)" width="600"> 
    <br>  
    <로딩 화면>
  </p> 
